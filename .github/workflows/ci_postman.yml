@@ -54,7 +54,7 @@ jobs:
              
   deploy:
     name: Deploy GitHub Pages 🌐
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     if: always()
     needs: 
       - test
