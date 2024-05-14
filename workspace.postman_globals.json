@@ -1,0 +1,201 @@
+{
+	"id": "a75c1167-97bd-44a4-807c-4a1cc3f0f260",
+	"values": [
+		{
+			"key": "msgAuthSucess",
+			"value": "Olá Qa-Coders-SYSADMIN, autenticação autorizada com sucesso!",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "alertAuthInvalid",
+			"value": "E-mail ou senha informados são inválidos.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "emailQaCoders",
+			"value": "sysadmin@qacoders.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "passwordQaCoders",
+			"value": "1234@Test",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "accessProfile",
+			"value": "ADMIN",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgFullNameRequerid",
+			"value": "O campo nome completo é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Msg100Caracter",
+			"value": "O nome completo deve ter no máximo 100 caracteres.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCaracterDiferente",
+			"value": "O campo nome completo não deve conter números",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgMailRequerid",
+			"value": "O campo e-mail é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgMailDominio",
+			"value": "O e-mail informado é inválido. Informe um e-mail no formato [nome@domínio.com].",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgPasswordRequerid",
+			"value": "O campo senha é obrigatório",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgPasswordDifferent",
+			"value": "Senha precisa ter: uma letra maiúscula, uma letra minúscula, um número, um caractere especial(@#$%) e tamanho entre 8-12.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgConfirmPasswordRequerid",
+			"value": "O campo de confirmação de senha é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgConfirmPasswordDifferent",
+			"value": "As senhas não coincidem.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCpfRequeried",
+			"value": "O campo CPF é obrigatório!",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCpfDifferent",
+			"value": "Campo CPF deve conter apenas números",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCpf",
+			"value": "Deve preencher o CPF com 11 dígitos",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgAcessPerfilRequerid",
+			"value": "O campo perfil de acesso é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgAcessPerfilDifferent",
+			"value": "O campo perfil de acesso deve ser preenchido de acordo com o seu cargo exemplo: ADMIN.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCpfRegistered",
+			"value": "O cpf informado já existe em nossa base de dados.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgMailRegistered",
+			"value": "E-mail já cadastrado.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgTokenReturn",
+			"value": "No token provided.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgServReturn",
+			"value": "\"CastError: Cast to ObjectId failed for value \\\"115156118111111515155\\\" (type string) at path \\\"_id\\\" for model \\\"User\\\"\"",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgLoginDelete",
+			"value": "Usuário deletado com sucesso!.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgUserDeleted",
+			"value": "Esse usuário não existe em nossa base de dados.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgInvalidValue",
+			"value": "Invalid value",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgPasswordCoflited",
+			"value": "Essa senha já foi utilizada anteriormente. Por favor, escolha uma nova senha.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgAlteredSucess",
+			"value": "Dados atualizados com sucesso!",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgCompanyAlteredSucess",
+			"value": "Companhia atualizada com sucesso.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgPasswordRequiried",
+			"value": "O campo senha é obrigatório.",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "MsgFullNameRequeried",
+			"value": "Informe o nome e sobrenome com as iniciais em letra maiúscula e sem caracteres especiais.",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-05-14T09:38:23.937Z",
+	"_postman_exported_using": "Postman/10.24.24"
+}

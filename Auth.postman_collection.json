@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "d78eaa9f-06d6-4eee-8818-e9ee7a904bdf",
+		"name": "Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28559468"
+	},
+	"item": [
+		{
+			"name": "Login Qa Coders- Caminho feliz",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Check Token is True\", function (){\r",
+							"    pm.expect(JSON.parse(responseBody).token).exist\r",
+							"});\r",
+							"\r",
+							"pm.environment.set(\"tokenUsers\", pm.variables.replaceIn(JSON.parse(responseBody).token));"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{tokenUsers}}",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mail\": \"{{emailQaCoders}}\",\r\n    \"password\": \"{{passwordQaCoders}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/login/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
